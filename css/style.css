@@ -32,3 +32,88 @@
 .post-area a:hover {
   color: #0D0017;
 }
+
+.crelatpos{
+  position: relative;
+}
+
+.cholderhead{
+  line-height: 0;
+  position: relative;
+  width: 100%;
+}
+
+.choldersub{
+  position: relative;
+  width: 100%;
+  margin-top: 10;
+}
+
+.cframe{
+  border: none;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.cicon{
+  background-color: rgba(147,147,147,0.7);
+  height: 52px;
+  position: absolute;
+  right: 12px;
+  top: 0;
+  width: 52px;
+  z-index: 15;
+}
+
+.clogo{
+  fill: white;
+  height: 18px;
+  left: 17px;
+  position: relative;
+  top: 17px;
+  width: 18px;
+}
+
+.cblockItems{
+  display: block;
+  width: 100%;
+}
+
+.clogoNameBox{
+  font-family: Roboto, sans-serif;
+  font-size: 15pt;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: none;
+}
+
+.clogoMid{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.clogosize{
+  display: inline-block;
+  max-height: 56px;
+  max-width: 225px;
+  padding: 8px 4px 8px 12px;
+  vertical-align: middle;
+}
+
+.card-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.image-md4 img{
+  max-width: 300px;
+  -webkit-max-width: 400px;
+  -moz-max-width: 400px;
+  -o-max-width: 400px;
+}
