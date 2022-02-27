@@ -5,115 +5,167 @@
  */
 
  .italic {
-   font-style: italic;
- }
+  font-style: italic;
+}
 
- .bold {
-   font-weight: bold;
- }
+.bold {
+  font-weight: bold;
+}
 
- .center-text {
-   text-align: center;
- }
+.center-text {
+  text-align: center;
+}
 
 .post-area {
-  padding: 40px;
-  width: 100%;
-  min-height: 150px;
-  background-color: white;
-  border-bottom: 1px dotted #ddd;
+ padding: 40px;
+ width: 100%;
+ min-height: 150px;
+ background-color: white;
+ border-bottom: 1px dotted #ddd;
 }
 
 .post-area a:link, .post-area a:visited {
-  font-size: 30px;
-  color: #333;
+ font-size: 30px;
+ color: #333;
 }
 
 .post-area a:hover {
-  color: #0D0017;
+ color: #0D0017;
 }
 
 .crelatpos{
-  position: relative;
+ position: relative;
 }
 
 .cholderhead{
-  line-height: 0;
-  position: relative;
-  width: 100%;
+ line-height: 0;
+ position: relative;
+ width: 100%;
 }
 
 .choldersub{
-  position: relative;
-  width: 100%;
-  margin-top: 10;
+ position: relative;
+ width: 100%;
+ margin-top: 10;
 }
 
 .cframe{
-  border: none;
-  bottom: 0;
-  height: 100%;
-  left: 0;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-  right: 0;
-  top: 0;
-  width: 100%;
+ border: none;
+ bottom: 0;
+ height: 100%;
+ left: 0;
+ margin: 0;
+ overflow: hidden;
+ padding: 0;
+ right: 0;
+ top: 0;
+ width: 100%;
 }
 
 .cicon{
-  background-color: rgba(147,147,147,0.7);
-  height: 52px;
-  position: absolute;
-  right: 12px;
-  top: 0;
-  width: 52px;
-  z-index: 15;
+ background-color: rgba(147,147,147,0.7);
+ height: 52px;
+ position: absolute;
+ right: 12px;
+ top: 0;
+ width: 52px;
+ z-index: 15;
 }
 
 .clogo{
-  fill: white;
-  height: 18px;
-  left: 17px;
-  position: relative;
-  top: 17px;
-  width: 18px;
+ fill: white;
+ height: 18px;
+ left: 17px;
+ position: relative;
+ top: 17px;
+ width: 18px;
 }
 
 .cblockItems{
-  display: block;
-  width: 100%;
+ display: block;
+ width: 100%;
 }
 
-.clogoNameBox{
-  font-family: Roboto, sans-serif;
-  font-size: 15pt;
-  font-weight: 500;
-  letter-spacing: 1.5px;
-  text-transform: none;
-}
+@media all and (max-width: 320px) {
+  .clogoNameBox{
+   width: 200px!important;
+   margin-top: 30px;
+   font-family: Roboto, sans-serif;
+   letter-spacing: 1.2px;
+   text-transform: none;
+  }
 
+  .clogoNameBox img{
+   display: inline-block;
+   width: 7%;
+   padding: 8px 4px 8px 12px;
+   vertical-align: middle;
+  }
+}
+  
+@media (min-width: 321px) {
+  .clogoNameBox{
+   width: 300px!important;
+   margin-top: 8px;
+   font-family: Roboto, sans-serif;
+   letter-spacing: 1.2px;
+   text-transform: none;
+  }
+
+  .clogoNameBox img{
+    display: inline-block;
+    width: 10%;
+    padding: 4px 2px 4px 6px;
+    vertical-align: middle;
+  }
+}
+  
+@media (min-width: 1200px) {
+  .clogoNameBox{
+   width: 330px!important;
+   font-family: Roboto, sans-serif;
+   letter-spacing: 1.2px;
+   text-transform: none;
+  }
+
+  .clogoNameBox img{
+    display: inline-block;
+    width: 13%;
+    padding: 4px 2px 4px 6px;
+    vertical-align: middle;
+  }
+}
+  
 .clogoMid{
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.clogosize{
-  display: inline-block;
-  max-height: 56px;
-  max-width: 225px;
-  padding: 8px 4px 8px 12px;
-  vertical-align: middle;
+ display: inline-block;
+ vertical-align: middle;
 }
 
 .card-overlay {
-  background: rgba(0, 0, 0, 0.5);
+ background: rgba(0, 0, 0, 0.5);
 }
 
-.image-md4 img{
-  max-width: 300px;
-  -webkit-max-width: 400px;
-  -moz-max-width: 400px;
-  -o-max-width: 400px;
+@media all and (max-width: 1000px) {
+.image-op40w50 {
+  max-width: 70%;
+  opacity: 40%;
+  float: right;
+  -webkit-max-width: 50%;
+  -moz-max-width: 50%;
+  -o-max-width: 50%;
+ }
 }
+
+
+@media all and (min-width: 1001px) {
+  .image-op40w50 {
+    position: absolute;
+    max-width: 70%;
+    opacity: 40%;
+    right: 0;
+    bottom: -360px;
+    -webkit-max-width: 50%;
+    -moz-max-width: 50%;
+    -o-max-width: 50%;
+   }
+  }
